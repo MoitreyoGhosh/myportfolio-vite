@@ -2,9 +2,7 @@ const Header = () => {
   return (
     <header className="sticky top-0 left-0 w-full flex justify-between items-center bg-[#191f36] py-5 px-[9%]">
         <a href="#" className=" text-[25px] font-bold text-white cursor-default">Portfolio</a>
-
         <i className=" fa-sharp fa-solid fa-bars  text-[3.6rem] " id="menu-icon"></i>
-
         <nav className="flex items-center justify-center gap-4 ">
             <a href="#home" className="text-white ml-16 hover:text-[#5982f4] hover:shadow-sm font-bold text-[15px]">Home</a>
             <a href="#about" className="text-white ml-16 hover:text-[#5982f4] hover:shadow-sm font-bold text-[15px]">About</a>
@@ -16,5 +14,4 @@ const Header = () => {
     </header>
   )
 }
-
 export default Header

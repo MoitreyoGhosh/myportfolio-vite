@@ -21,6 +21,10 @@
   --main-color:#5982F4;
 }
 
+span{
+  color:#5982F4;
+}
+
 html{
   font-size: 62.5%;
   overflow-x: hidden;
