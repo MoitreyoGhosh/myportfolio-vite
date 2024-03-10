@@ -6,7 +6,6 @@ const Header = () => {
         <nav className="flex items-center justify-center gap-4 ">
             <a href="#home" className="text-white ml-16 hover:text-[#5982f4] hover:shadow-sm font-bold text-[15px]">Home</a>
             <a href="#about" className="text-white ml-16 hover:text-[#5982f4] hover:shadow-sm font-bold text-[15px]">About</a>
-            <a href="#skills" className="text-white ml-16 hover:text-[#5982f4] hover:shadow-sm font-bold text-[15px]">Skills</a>
             <a href="#services" className="text-white ml-16 hover:text-[#5982f4] hover:shadow-sm font-bold text-[15px]">Services</a>
             <a href="#portfolio" className="text-white ml-16 hover:text-[#5982f4] shadow-sm font-bold text-[15px]">Portfolio</a>
             <a href="#contact" className="text-white ml-16 hover:text-[#5982f4] shadow-sm font-bold text-[15px]">Contact</a>
@@ -15,3 +14,4 @@ const Header = () => {
   )
 }
 export default Header
+/*<a href="#skills" className="text-white ml-16 hover:text-[#5982f4] hover:shadow-sm font-bold text-[15px]">Skills</a>*/
